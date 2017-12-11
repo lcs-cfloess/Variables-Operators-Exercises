@@ -35,7 +35,10 @@
  
  */
 // Answer Question 1 below
-
+let studentFirstName = "Constantin"
+let stundentLastName = "Floess"
+var stundentsCurrentGrade = 75
+var studemtsGradForNovemberReportCard = 80
 /*:
  ### Question 2
  
@@ -47,8 +50,9 @@
  
  */
 // Answer Question 2 below
-
-
+let myAge = Int(16)
+let otherAge = Double(40.0)
+let averageAge = (myAge + otherAge)/2
 /*:
  ### Question 3
  
