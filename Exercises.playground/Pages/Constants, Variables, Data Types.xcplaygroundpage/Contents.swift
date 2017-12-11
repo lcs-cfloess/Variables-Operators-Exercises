@@ -37,8 +37,8 @@
 // Answer Question 1 below
 let studentFirstName = "Constantin"
 let stundentLastName = "Floess"
-var stundentsCurrentGrade = 75
-var studemtsGradForNovemberReportCard = 80
+var stundentsCurrentGrade = Double(75)
+var studemtsGradForNovemberReportCard = Double(80)
 /*:
  ### Question 2
  
@@ -52,14 +52,14 @@ var studemtsGradForNovemberReportCard = 80
 // Answer Question 2 below
 let myAge = Int(16)
 let otherAge = Double(40.0)
-let averageAge = (myAge + otherAge)/2
+let averageAge = (Double(myAge) + otherAge)/2
 /*:
  ### Question 3
  
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this constant.
  */
 // Answer Question 3 below
-
+let favouriteHobbyOfPerson = String("handball")
 
 /*:
  ### Question 4
