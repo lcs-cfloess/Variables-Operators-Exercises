@@ -69,8 +69,9 @@ let favouriteHobbyOfPerson = String("handball")
  Use multiple `print` statements below to answer this question.
  */
 // Answer Question 4 below
-
-
+print( "when you have a value that won't cange at all" )
+print("it's clearer to just use a immutable constant")
+print("insted of a mutable varible")
 /*:
  ### Question 5
  
@@ -80,7 +81,7 @@ let favouriteHobbyOfPerson = String("handball")
  
  */
 // Answer Question 5 below
-
+let rendomDemand = Int(1_000_000)
 /*:
  ### Question 6
  
@@ -100,8 +101,10 @@ let favouriteHobbyOfPerson = String("handball")
  
  */
 // Answer Question 6 below
-
-
+var number = Int(2017)
+let year = String("is nearly over")
+//year + number
+// its a locical error
 /*:
  ### Question 7
  
@@ -110,8 +113,8 @@ let favouriteHobbyOfPerson = String("handball")
  Use multiple `print` statements below to explain.
  */
 // Answer Question 7 below
-
-
+print("if you type a huge erro")
+print("xcode dosent crash but shwos you that it is not working ")
 
 
 //: [Next](@next)
